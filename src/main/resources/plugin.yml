@@ -1,0 +1,7 @@
+name: goldenhead
+version: '1.0.0+1.21.4'
+main: me.loloed.goldenhead.GoldenHeadPlugin
+api-version: '1.21'
+authors: [ loloed ]
+description: mctiers golden head
+website: https://loloed.dev/goldenhead
