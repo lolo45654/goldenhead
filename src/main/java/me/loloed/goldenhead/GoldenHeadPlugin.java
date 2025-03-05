@@ -54,8 +54,8 @@ public final class GoldenHeadPlugin extends JavaPlugin implements Listener {
         ITEM.setData(DataComponentTypes.CONSUMABLE, Consumable.consumable()
                 .sound(Key.key("entity.generic.eat"))
                 .addEffect(ConsumeEffect
-                        .applyStatusEffects(List.of(new PotionEffect(PotionEffectType.REGENERATION, 20 * 5, 2),
-                                new PotionEffect(PotionEffectType.ABSORPTION, 120 * 20, 0)), 1)).build());
+                        .applyStatusEffects(List.of(new PotionEffect(PotionEffectType.REGENERATION, 20 * 5, 2, false),
+                                new PotionEffect(PotionEffectType.ABSORPTION, 120 * 20, 0, false)), 1)).build());
         ITEM.setData(DataComponentTypes.FOOD, FoodProperties.food()
                 .nutrition(4)
                 .saturation(9.6f)
